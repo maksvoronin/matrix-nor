@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-const Button = styled.div<{ width?: number }>`
+const Button = styled.div<{ width?: number, height?: number }>`
   background: var(--backgroundGradient);
   color: white;
   border: none;
-  min-height: 90px;
+  height: ${({height}) => height ? `${height}px` :  "90px" };
   display: flex;
-  width: ${({ width }) => `${width}px` || "auto"};
+  width: ${({ width }) => width ? `${width}px` : "auto"};
   align-items: center;
   justify-content: center;
   font-weight: 600;
