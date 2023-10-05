@@ -5,3 +5,6 @@ export { default as AboutBlock } from "./AboutBlock";
 export { default as CertificateBlock } from "./CertificateBlock";
 export { default as StarBlock } from "./StarBlock";
 export { default as FeedbackBlock } from "./FeedbackBlock";
+export { default as DecanatBlock } from "./DecanatBlock";
+export { default as ContactBlock } from "./ContactBlock";
+export { default as Footer } from "./Footer";

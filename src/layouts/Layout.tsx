@@ -2,7 +2,7 @@ import { FC, PropsWithChildren } from "react";
 import { PageProps } from "../types";
 import { observer } from "mobx-react";
 import styled from "styled-components";
-import { Header } from "../widgets";
+import { Footer, Header } from "../widgets";
 
 const LayoutContainer = styled.div`
   display: flex;
@@ -18,6 +18,7 @@ const Layout: FC<PropsWithChildren<PageProps>> = observer(({ title, children }) 
       <LayoutContainer>
         <Header />
         {children}
+        <Footer />
       </LayoutContainer>
     </>
   );

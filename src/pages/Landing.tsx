@@ -2,7 +2,7 @@ import { observer } from "mobx-react";
 import { FC } from "react";
 import { PageProps } from "../types";
 import { Layout } from "../layouts";
-import { AboutBlock, CertificateBlock, FeedbackBlock, FirstScreen, StarBlock, WelcomeScreen } from "../widgets";
+import { AboutBlock, CertificateBlock, ContactBlock, DecanatBlock, FeedbackBlock, FirstScreen, StarBlock, WelcomeScreen } from "../widgets";
 
 const Landing: FC<PageProps> = observer(({ title }) => {
   return (
@@ -13,6 +13,8 @@ const Landing: FC<PageProps> = observer(({ title }) => {
       <CertificateBlock />
       <StarBlock />
       <FeedbackBlock />
+      <DecanatBlock />
+      <ContactBlock />
     </Layout>
   );
 });
