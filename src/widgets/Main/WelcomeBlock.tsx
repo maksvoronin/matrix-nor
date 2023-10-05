@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
-import { Button, Container } from "../shared";
+import { Button, Container } from "../../shared";
 import { styled } from "styled-components";
 
 const WelcomeContainer = styled(Container)`

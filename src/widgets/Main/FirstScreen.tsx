@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
-import firstScreenBackground from "../assets/firstScreen.png";
-import { Button, Container } from "../shared";
+import firstScreenBackground from "../../assets/firstScreen.png";
+import { Button, Container } from "../../shared";
 import styled from "styled-components";
 
 const FSContainer = styled.div`

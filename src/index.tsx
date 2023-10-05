@@ -3,10 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Landing } from "./pages";
+import { Landing, Nor } from "./pages";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Landing title="MatrixNor" /> }
+  { path: "/", element: <Landing title="MatrixNor" /> },
+  { path: "/nor", element: <Nor title="Nor" /> }
 ]);
 
 const root = ReactDOM.createRoot(

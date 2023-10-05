@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
-import { Container } from "../shared";
+import { Container } from "../../shared";
 import styled from "styled-components";
 
 const ContactContainer = styled(Container)`

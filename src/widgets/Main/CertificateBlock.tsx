@@ -1,9 +1,9 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
-import { Container } from "../shared";
+import { Container } from "../../shared";
 import styled from "styled-components";
-import galka from "../assets/galka.png";
-import downArrow from "../assets/downArrow.svg";
+import galka from "../../assets/galka.png";
+import downArrow from "../../assets/downArrow.svg";
 
 const Title = styled.h1`
   font-weight: 400;

@@ -1,8 +1,8 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
-import { Button, Container } from "../shared";
+import { Button, Container } from "../../shared";
 import styled from "styled-components";
-import tgIcon from "../assets/tgIcon.png";
+import tgIcon from "../../assets/tgIcon.png";
 
 const Title = styled.h1`
   font-weight: 400;

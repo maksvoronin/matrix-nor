@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
-import { Container } from "../shared";
-import galka from "../assets/galka.png";
+import { Container } from "../../shared";
+import galka from "../../assets/galka.png";
 import styled from "styled-components";
 
 const Title = styled.h1`

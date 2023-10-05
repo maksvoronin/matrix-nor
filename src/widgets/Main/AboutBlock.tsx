@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
 import styled from "styled-components";
-import { Container } from "../shared";
+import { Container } from "../../shared";
 
 const Title = styled.h1`
   font-weight: 400;
