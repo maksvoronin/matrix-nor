@@ -2,7 +2,8 @@
 
 :root {
   --backgroundGradient: linear-gradient(95deg, #f2a244 0%, #e751ff 100%);
-  --purple: #DC4EFF;
+  --purple: #dc4eff;
+  --purpleGradient: linear-gradient(90deg, #9444c5 0%, #bc4fff 53.12%, #9444c5 100%);
 }
 
 body {
