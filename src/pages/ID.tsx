@@ -2,12 +2,12 @@ import { FC } from "react";
 import { PageProps } from "../types";
 import { observer } from "mobx-react";
 import { Layout } from "../layouts";
-import { NorHeader } from "../widgets";
+import { IDHeader } from "../widgets";
 
-const Nor: FC<PageProps> = observer(({ title }) => {
+const ID: FC<PageProps> = observer(({ title }) => {
   return <Layout title={title}>
-    <NorHeader />
+    <IDHeader />
   </Layout>;
 });
 
-export default Nor;
+export default ID;

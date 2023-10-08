@@ -39,7 +39,7 @@ const Transformation = styled.h2`
 `;
 
 const Europe = styled.h3`
-  font-family: "Pacifico";
+  font-family: "Sofia Sans Condensed";
   font-size: 28px;
   line-height: 1.33;
 `;

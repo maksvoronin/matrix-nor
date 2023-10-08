@@ -10,3 +10,8 @@ export { default as ContactBlock } from "./Main/ContactBlock";
 export { default as Footer } from "./Footer";
 
 export { default as NorHeader } from "./Nor/NorHeader";
+export { default as NorVorteile } from "./Nor/NorVorteile";
+
+export { default as IDHeader } from "./ID/IDHeader";
+
+export { default as SGHeader } from "./SG/SGHeader";
