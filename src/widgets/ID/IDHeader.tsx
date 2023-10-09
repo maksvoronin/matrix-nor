@@ -18,7 +18,6 @@ const Subtitle = styled.h2`
   line-height: normal;
   text-align: right;
   margin-top: 19px;
-  margin-bottom: 19px;
 `;
 
 const IDHeader: FC = observer(() => {

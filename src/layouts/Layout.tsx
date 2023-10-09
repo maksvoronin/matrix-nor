@@ -4,18 +4,18 @@ import { observer } from "mobx-react";
 import styled from "styled-components";
 import { Footer, Header } from "../widgets";
 
-const LayoutContainer = styled.div`
+const LayoutContainer = styled.div<{ gap: number }>`
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 80px;
+  gap: ${({ gap }) => gap}px;
 `;
 
-const Layout: FC<PropsWithChildren<PageProps>> = observer(({ title, children }) => {
+const Layout: FC<PropsWithChildren<PageProps>> = observer(({ title, children, gap }) => {
   return (
     <>
       <title>{title}</title>
-      <LayoutContainer>
+      <LayoutContainer gap={gap || 80}>
         <Header />
         {children}
         <Footer />

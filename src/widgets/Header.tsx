@@ -5,13 +5,13 @@ import { Container, Link } from "../shared";
 import { HeaderLinks } from "../components";
 import config from "../config";
 
-const HeaderContainer = styled.header<{ scrolled: boolean }>`
+const HeaderContainer = styled.header<{ scrolled: string | undefined }>`
   position: fixed;
   top: 0;
   width: 100%;
   height: 70px;
   transition: background 0.2s;
-  background: ${({ scrolled }) => (scrolled ? "#361e14" : "transparent")};
+  background: ${({ scrolled }) => (scrolled ? "#070933" : "transparent")};
   ${Container} {
     height: 100%;
   }
@@ -44,7 +44,7 @@ const Header: FC = observer(() => {
   }, []);
 
   return (
-    <HeaderContainer scrolled={scrollTop > 0}>
+    <HeaderContainer scrolled={scrollTop > 0 ? "true" : undefined}>
       <HeaderLayout>
         <Logo>MATRIX NOR</Logo>
         <HeaderLinks />

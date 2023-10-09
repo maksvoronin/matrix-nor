@@ -13,5 +13,10 @@ export { default as NorHeader } from "./Nor/NorHeader";
 export { default as NorVorteile } from "./Nor/NorVorteile";
 
 export { default as IDHeader } from "./ID/IDHeader";
+export { default as IDIntroText } from "./ID/IDIntroText";
+export { default as IDProgram } from "./ID/IDProgram";
+export { default as IDWhoUse } from "./ID/IDWhoUse";
+export { default as IDQuestions } from "./ID/IDQuestions";
+export { default as IDCalculator } from "./ID/IDCalculator";
 
 export { default as SGHeader } from "./SG/SGHeader";

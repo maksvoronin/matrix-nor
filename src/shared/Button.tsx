@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Button = styled.div<{ width?: number, height?: number }>`
+const Button = styled.div<{ width?: number, height?: number, borderradius?: number, weight?: number }>`
   background: var(--backgroundGradient);
   color: white;
   border: none;
@@ -9,8 +9,8 @@ const Button = styled.div<{ width?: number, height?: number }>`
   width: ${({ width }) => width ? `${width}px` : "auto"};
   align-items: center;
   justify-content: center;
-  font-weight: 600;
-  border-radius: 20px;
+  font-weight: ${({weight}) => weight ? `${weight}` : 600};
+  border-radius: ${({borderradius}) => borderradius ? `${borderradius}px` : `20px`};
   font-size: 18px;
   text-align: center;
   transition: box-shadow 0.3s;
