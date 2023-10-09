@@ -2,12 +2,13 @@ import { FC } from "react";
 import { PageProps } from "../types";
 import { observer } from "mobx-react";
 import { Layout } from "../layouts";
-import { SGHeader } from "../widgets";
+import { SGHeader, SGText } from "../widgets";
 
 const SG: FC<PageProps> = observer(({ title }) => {
   return (
-    <Layout title={title}>
+    <Layout title={title} gap={25}>
       <SGHeader />
+      <SGText />
     </Layout>
   );
 });
