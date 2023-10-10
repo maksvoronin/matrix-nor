@@ -11,6 +11,8 @@ export { default as Footer } from "./Footer";
 
 export { default as NorHeader } from "./Nor/NorHeader";
 export { default as NorVorteile } from "./Nor/NorVorteile";
+export { default as NorProgram } from "./Nor/NorProgram";
+export { default as NorBottomText } from "./Nor/NorBottomText";
 
 export { default as IDHeader } from "./ID/IDHeader";
 export { default as IDIntroText } from "./ID/IDIntroText";
