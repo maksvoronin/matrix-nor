@@ -11,7 +11,9 @@ const ContactContainer = styled(Container)`
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  max-width: calc(1025px - 76px);
+  max-width: calc(100% - 106px);
+  margin-left: 15px;
+  margin-right: 15px;
 `;
 
 const Title = styled.h1`

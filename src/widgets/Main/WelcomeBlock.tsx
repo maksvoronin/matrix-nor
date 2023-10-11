@@ -4,10 +4,12 @@ import { Button, Container } from "../../shared";
 import { styled } from "styled-components";
 
 const WelcomeContainer = styled(Container)`
-  width: 100%;
+  width: calc(100% - 30px);
   gap: 16px;
   display: flex;
   flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
 `;
 
 const Title = styled.h1`

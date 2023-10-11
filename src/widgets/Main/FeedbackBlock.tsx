@@ -25,6 +25,9 @@ const FeedbackList = styled.div`
   display: flex;
   gap: 40px;
   margin-top: 23px;
+  @media(max-width: 670px) {
+    flex-direction: column;
+  }
 `;
 
 const FeedbackContainer = styled.div`

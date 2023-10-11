@@ -8,20 +8,27 @@ import config from "../config";
 const HeaderContainer = styled.header<{ scrolled: string | undefined }>`
   position: fixed;
   top: 0;
-  width: 100%;
+  width: calc(100% - 30px);
   height: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
   transition: background 0.2s;
   background: ${({ scrolled }) => (scrolled ? "#070933" : "transparent")};
-  ${Container} {
-    height: 100%;
-  }
 `;
+
+const TelegramLink = styled(Link)``;
 
 const HeaderLayout = styled(Container)`
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+
+  @media(max-width: 1040px) {
+    ${TelegramLink} {
+      display: none;
+    }
+  }
 `;
 
 const Logo = styled.b`
@@ -48,9 +55,9 @@ const Header: FC = observer(() => {
       <HeaderLayout>
         <Logo>MATRIX NOR</Logo>
         <HeaderLinks />
-        <Link to={config.telegram_link} target="_blank">
+        <TelegramLink to={config.telegram_link} target="_blank">
           {config.telegram_name}
-        </Link>
+        </TelegramLink>
       </HeaderLayout>
     </HeaderContainer>
   );

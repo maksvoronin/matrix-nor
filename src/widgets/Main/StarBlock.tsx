@@ -14,6 +14,10 @@ const Title = styled.h1`
   margin-bottom: 36px;
 `;
 
+const Star = styled.img`
+  max-width: 100%;
+`;
+
 const StarBlock: FC = observer(() => {
   return (
     <Container>
@@ -21,7 +25,7 @@ const StarBlock: FC = observer(() => {
         <img src={galka} alt="Title arrow" />
         Проработать собственные вопросы
       </Title>
-      <img src={star} alt="Star" />
+      <Star src={star} alt="Star" />
     </Container>
   );
 });

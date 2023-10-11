@@ -34,6 +34,13 @@ const CertContainer = styled.div`
 const CertList = styled.div`
   display: flex;
   gap: 20px;
+  @media (max-width: 1040px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 540px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const CertBlock = styled.div`

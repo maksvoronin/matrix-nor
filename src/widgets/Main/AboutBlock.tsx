@@ -12,6 +12,10 @@ const Title = styled.h1`
 
 const BlockList = styled.div`
   display: flex;
+  @media(max-width: 1040px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 
 const UserCard = styled.div`

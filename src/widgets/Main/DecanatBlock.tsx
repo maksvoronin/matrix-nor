@@ -23,16 +23,19 @@ const Subtitle = styled.p`
   padding: 0;
 `;
 
-const DecanatLine = styled.div`
-  display: flex;
-  gap: 48px;
-`;
-
 const DecanatGrid = styled.div`
-  display: flex;
+  display: grid;
   margin-top: 60px;
   flex-direction: column;
   gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  @media (max-width: 1025px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 675px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const DecanatCard = styled.div`
@@ -81,76 +84,72 @@ const DecanatBlock: FC = observer(() => {
       <Title>Территориальные руководители проекта</Title>
       <Subtitle>Организация системного обучения, личные консультации</Subtitle>
       <DecanatGrid>
-        <DecanatLine>
-          <DecanatCard>
-            <DecanatInfo>
-              <img alt="Avatar" />
-              <DecanatName>
-                <h1>Ирина Пертрова</h1>
-                <p>Германия, Мюнхен</p>
-                <p>Магистр MatrixNor</p>
-              </DecanatName>
-            </DecanatInfo>
-            <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
-          </DecanatCard>
-          <DecanatCard>
-            <DecanatInfo>
-              <img alt="Avatar" />
-              <DecanatName>
-                <h1>Ирина Пертрова</h1>
-                <p>Германия, Мюнхен</p>
-                <p>Магистр MatrixNor</p>
-              </DecanatName>
-            </DecanatInfo>
-            <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
-          </DecanatCard>
-          <DecanatCard>
-            <DecanatInfo>
-              <img alt="Avatar" />
-              <DecanatName>
-                <h1>Ирина Пертрова</h1>
-                <p>Германия, Мюнхен</p>
-                <p>Магистр MatrixNor</p>
-              </DecanatName>
-            </DecanatInfo>
-            <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
-          </DecanatCard>
-        </DecanatLine>
-        <DecanatLine>
-          <DecanatCard>
-            <DecanatInfo>
-              <img alt="Avatar" />
-              <DecanatName>
-                <h1>Ирина Пертрова</h1>
-                <p>Германия, Мюнхен</p>
-                <p>Магистр MatrixNor</p>
-              </DecanatName>
-            </DecanatInfo>
-            <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
-          </DecanatCard>
-          <DecanatCard>
-            <DecanatInfo>
-              <img alt="Avatar" />
-              <DecanatName>
-                <h1>Ирина Пертрова</h1>
-                <p>Германия, Мюнхен</p>
-                <p>Магистр MatrixNor</p>
-              </DecanatName>
-            </DecanatInfo>
-            <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
-          </DecanatCard>
-          <DecanatCard>
-            <DecanatInfo>
-              <img alt="Avatar" />
-              <DecanatName>
-                <h1>Ирина Пертрова</h1>
-                <p>Германия, Мюнхен</p>
-                <p>Магистр MatrixNor</p>
-              </DecanatName>
-            </DecanatInfo>
-            <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
-          </DecanatCard>
-        </DecanatLine>
+        <DecanatCard>
+          <DecanatInfo>
+            <img alt="Avatar" />
+            <DecanatName>
+              <h1>Ирина Пертрова</h1>
+              <p>Германия, Мюнхен</p>
+              <p>Магистр MatrixNor</p>
+            </DecanatName>
+          </DecanatInfo>
+          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <img alt="Avatar" />
+            <DecanatName>
+              <h1>Ирина Пертрова</h1>
+              <p>Германия, Мюнхен</p>
+              <p>Магистр MatrixNor</p>
+            </DecanatName>
+          </DecanatInfo>
+          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <img alt="Avatar" />
+            <DecanatName>
+              <h1>Ирина Пертрова</h1>
+              <p>Германия, Мюнхен</p>
+              <p>Магистр MatrixNor</p>
+            </DecanatName>
+          </DecanatInfo>
+          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <img alt="Avatar" />
+            <DecanatName>
+              <h1>Ирина Пертрова</h1>
+              <p>Германия, Мюнхен</p>
+              <p>Магистр MatrixNor</p>
+            </DecanatName>
+          </DecanatInfo>
+          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <img alt="Avatar" />
+            <DecanatName>
+              <h1>Ирина Пертрова</h1>
+              <p>Германия, Мюнхен</p>
+              <p>Магистр MatrixNor</p>
+            </DecanatName>
+          </DecanatInfo>
+          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <img alt="Avatar" />
+            <DecanatName>
+              <h1>Ирина Пертрова</h1>
+              <p>Германия, Мюнхен</p>
+              <p>Магистр MatrixNor</p>
+            </DecanatName>
+          </DecanatInfo>
+          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+        </DecanatCard>
       </DecanatGrid>
       <TgButton width={300} height={90}>
         <img src={tgIcon} alt="tg" />
