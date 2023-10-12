@@ -8,6 +8,9 @@ const MatrixTitle = styled.h1`
   font-size: 64px;
   color: #E72408;
   font-weight: 400;
+  @media(max-width: 500px) {
+    font-size: 48px;
+  }
 `;
 
 const Subtitle = styled.h2`
@@ -19,6 +22,9 @@ const Subtitle = styled.h2`
   text-align: right;
   margin-top: 19px;
   margin-bottom: 19px;
+  @media(max-width: 500px) {
+    font-size: 20px;
+  }
 `;
 
 const SGHeader: FC = observer(() => {

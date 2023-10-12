@@ -9,6 +9,9 @@ line-height: 1.44;
     color: #c6230a;
     font-weight: bold;
   }
+  @media(max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const SGText = observer(() => {
