@@ -18,6 +18,9 @@ const Button = styled.div<{ width?: number, height?: number, borderradius?: numb
   &:hover {
     box-shadow: 0px 5px 20px #dc4eff65;
   }
+  @media(max-width: 500px) {
+    width: 100%;
+  }
 `;
 
 export default Button;

@@ -12,6 +12,9 @@ const Title = styled.h1`
   align-items: center;
   gap: 14px;
   margin-bottom: 36px;
+  @media (max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 const CertContainer = styled.div`

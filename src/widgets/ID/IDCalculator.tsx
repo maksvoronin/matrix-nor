@@ -10,6 +10,9 @@ const CalcRow = styled.div`
   border-radius: 20px;
   background: #221149;
   padding: 20px;
+  @media (max-width: 920px) {
+    flex-direction: column;
+  }
 `;
 
 const Input = styled.input`
@@ -20,10 +23,16 @@ const Input = styled.input`
   border: 1px solid #eee;
   font-size: 16px;
   outline: none;
+  @media (max-width: 780px) {
+    width: calc(100% - 15px);
+  }
 `;
 
 const CalcGrid = styled.div`
   display: flex;
+  @media (max-width: 680px) {
+    flex-direction: column;
+  }
 `;
 
 const CalcTable = styled.div`
@@ -32,6 +41,12 @@ const CalcTable = styled.div`
   width: 75%;
   gap: 20px;
   margin-top: 20px;
+  @media (max-width: 680px) {
+    width: 100%;
+  }
+  @media (max-width: 380px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 const CalcGridElement = styled.div`
   border-radius: 20px;
@@ -42,6 +57,7 @@ const CalcGridElement = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  text-align: center;
 
   h1 {
     font-size: 40px;
@@ -61,6 +77,18 @@ const CalcPlanets = styled.div`
   flex-direction: column;
   width: 25%;
   gap: 20px;
+  @media (max-width: 680px) {
+    width: 100%;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: 470px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 380px) {
+      grid-template-columns: 1fr;
+    }
+  }
 `;
 
 const CalcPlanetElement = styled.div`
@@ -76,11 +104,21 @@ const CalcPlanetElement = styled.div`
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
+  @media (max-width: 680px) {
+    height: 60px;
+  }
 `;
 
 const Inputs = styled.div`
   display: flex;
   gap: 32px;
+  @media (max-width: 780px) {
+    flex-direction: column;
+    width: 100%;
+    ${Button} {
+      width: 100%;
+    }
+  }
 `;
 
 const IDCalculator = observer(() => {

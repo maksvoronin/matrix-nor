@@ -16,7 +16,7 @@ const MainContainer = styled(Container)`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: calc(100% - 30px);
   line-height: 1.33;
   height: 493px;
   gap: 21px;
@@ -28,6 +28,9 @@ const MatrixNor = styled.h1`
   text-align: center;
   font-size: 72px;
   color: var(--purple);
+  @media(max-width: 500px) {
+    font-size: 56px;
+  }
 `;
 
 const Transformation = styled.h2`
@@ -36,17 +39,28 @@ const Transformation = styled.h2`
   text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
+  @media(max-width: 500px) {
+    font-size: 28px;
+  }
 `;
 
 const Europe = styled.h3`
-  font-family: "Sofia Sans Condensed";
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-size: 28px;
   line-height: 1.33;
+  text-align: center;
+  font-style: italic;
 `;
 
 const CTAConstruction = styled(Container)`
   display: flex;
   justify-content: space-between;
+  @media(max-width: 850px) {
+    justify-content: center;
+    img {
+      display: none;
+    }
+  }
 `;
 
 const Photo = styled.img`

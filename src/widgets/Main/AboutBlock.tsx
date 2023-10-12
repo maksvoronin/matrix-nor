@@ -8,6 +8,9 @@ const Title = styled.h1`
   font-size: 32px;
   margin-bottom: 41px;
   text-align: center;
+  @media(max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 const BlockList = styled.div`
@@ -29,6 +32,12 @@ const UserCard = styled.div`
     background-color: #d9d9d9;
     border-radius: 8px;
   }
+
+  @media(max-width: 500px) {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 `;
 
 const Text = styled.div`
@@ -40,7 +49,13 @@ const Text = styled.div`
     max-width: 261px;
     font-size: 18px;
     line-height: 1.47;
+    @media(max-width: 500px) {
+      max-width: none;
+    }
   }
+  @media(max-width: 500px) {
+      text-align: center;
+    }
 `;
 
 const AboutBlock: FC = observer(() => {

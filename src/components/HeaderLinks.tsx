@@ -7,12 +7,18 @@ const HeaderLinksContainer = styled.div`
   display: flex;
   gap: 10px;
   color: white;
+  @media(max-width: 500px) {
+    gap: 5px;
+  }
 `;
 
 const Link = styled(DefaultLink)`
   color: white;
   &:hover {
     text-decoration: underline;
+  }
+  @media(max-width: 500px) {
+    font-size: 13px;
   }
 `;
 

@@ -5,6 +5,9 @@ import { Container as DefContainer } from "../../shared";
 const Text = styled.p`
   font-size: 24px;
   line-height: 1.47;
+  @media(max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const Container = styled(DefContainer)`

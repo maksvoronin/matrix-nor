@@ -11,15 +11,24 @@ const Title = styled.h1`
   align-items: start;
   gap: 14px;
   margin-bottom: 36px;
+  @media(max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const Ul = styled.ul`
   font-size: 24px;
+  @media(max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const Text = styled.p`
   font-size: 26px;
   margin-bottom: 13px;
+  @media(max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const NorVorteile: FC = observer(() => {

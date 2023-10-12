@@ -8,6 +8,9 @@ const MatrixTitle = styled.h1`
   font-size: 64px;
   color: #dc4eff;
   font-weight: 400;
+  @media (max-width: 500px) {
+    font-size: 42px;
+  }
 `;
 
 const Subtitle = styled.h2`
@@ -19,6 +22,9 @@ const Subtitle = styled.h2`
   text-align: right;
   margin-top: 19px;
   margin-bottom: 19px;
+  @media (max-width: 500px) {
+    font-size: 18px;
+  }
 `;
 
 const CenterText = styled.p`
@@ -27,6 +33,10 @@ const CenterText = styled.p`
   line-height: normal;
   font-size: 21px;
   margin-bottom: 46px;
+  @media (max-width: 500px) {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
 `;
 
 const NorHeader: FC = observer(() => {

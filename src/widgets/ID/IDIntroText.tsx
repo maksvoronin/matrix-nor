@@ -5,6 +5,9 @@ import styled from "styled-components";
 
 const Text = styled.p`
   font-size: 24px;
+  @media(max-width: 400px) {
+    font-size: 16px;
+  }
 `;
 
 const IDHeader: FC = observer(() => {

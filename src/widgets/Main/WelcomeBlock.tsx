@@ -15,12 +15,18 @@ const WelcomeContainer = styled(Container)`
 const Title = styled.h1`
   font-weight: 400;
   font-size: 32px;
+  @media(max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 const Text = styled.p`
   max-width: 712px;
   line-height: 1.47;
   font-size: 18px;
+  @media(max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const WelcomeScreen: FC = observer(() => {

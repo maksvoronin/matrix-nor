@@ -11,6 +11,9 @@ const Title = styled.h1`
   align-items: center;
   gap: 14px;
   margin-bottom: 15px;
+  @media(max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 const Subtitle = styled.h2`
@@ -19,6 +22,9 @@ const Subtitle = styled.h2`
   font-weight: 400;
   margin-top: 0;
   padding: 0;
+  @media(max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 const FeedbackList = styled.div`
@@ -41,12 +47,18 @@ const FeedbackTitle = styled.h1`
   font-weight: 700;
   color: #fff;
   margin-bottom: 17px;
+  @media(max-width: 500px) {
+    font-size: 20px;
+  }
 `;
 
 const FeedbackText = styled.p`
   line-height: 147%;
   font-size: 24px;
   color: #fff;
+  @media(max-width: 500px) {
+    font-size: 16px;
+  }
 `;
 
 const FeedbackBlock: FC = observer(() => {

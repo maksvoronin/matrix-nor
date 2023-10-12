@@ -14,6 +14,10 @@ const Title = styled.p`
     width: 33px;
     height: 38px;
   }
+
+  @media (max-width: 400px) {
+    font-size: 18px;
+  }
 `;
 
 const Ul = styled.ul`
@@ -23,6 +27,9 @@ const Ul = styled.ul`
     font-style: normal;
     font-weight: 400;
     line-height: 1.47;
+    @media (max-width: 400px) {
+      font-size: 16px;
+    }
   }
 `;
 

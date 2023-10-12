@@ -8,10 +8,8 @@ import config from "../config";
 const HeaderContainer = styled.header<{ scrolled: string | undefined }>`
   position: fixed;
   top: 0;
-  width: calc(100% - 30px);
+  width: calc(100%);
   height: 70px;
-  padding-left: 15px;
-  padding-right: 15px;
   transition: background 0.2s;
   background: ${({ scrolled }) => (scrolled ? "#070933" : "transparent")};
 `;
@@ -33,6 +31,9 @@ const HeaderLayout = styled(Container)`
 
 const Logo = styled.b`
   color: var(--purple);
+  @media(max-width: 500px) {
+    font-size: 14px;
+  }
 `;
 
 const Header: FC = observer(() => {

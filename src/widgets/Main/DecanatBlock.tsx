@@ -12,6 +12,9 @@ const Title = styled.h1`
   text-align: center;
   color: #fff;
   margin-bottom: 15px;
+  @media (max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 const Subtitle = styled.p`
@@ -33,7 +36,7 @@ const DecanatGrid = styled.div`
   @media (max-width: 1025px) {
     grid-template-columns: 1fr 1fr;
   }
-  @media (max-width: 675px) {
+  @media (max-width: 500px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -41,6 +44,9 @@ const DecanatGrid = styled.div`
 const DecanatCard = styled.div`
   display: flex;
   flex-direction: column;
+  @media (max-width: 500px) {
+    align-items: center;
+  }
 `;
 
 const DecanatInfo = styled.div`
@@ -51,6 +57,13 @@ const DecanatInfo = styled.div`
     height: 85px;
     border-radius: 500px;
     background: #d9d9d9;
+    @media (max-width: 500px) {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  @media (max-width: 500px) {
+    gap: 20px;
   }
 `;
 
@@ -61,15 +74,26 @@ const DecanatName = styled.div`
   h1 {
     font-size: 22px;
     font-weight: 700;
+    @media (max-width: 500px) {
+      font-size: 18px;
+    }
   }
   p {
     font-size: 16px;
     font-weight: 400;
+    @media (max-width: 500px) {
+      font-size: 15px;
+    }
   }
 `;
 
 const DecanatRole = styled.p`
   margin-top: 13px;
+  font-size: 16px;
+  font-weight: 400;
+  @media (max-width: 500px) {
+    font-size: 15px;
+  }
 `;
 
 const TgButton = styled(Button)`

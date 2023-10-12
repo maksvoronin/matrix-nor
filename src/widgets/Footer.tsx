@@ -11,13 +11,13 @@ const FooterContainer = styled(Container)`
   max-width: calc(100% - 30px);
   padding-left: 15px;
   padding-right: 15px;
-  @media(max-width: 900px) {
+  @media (max-width: 900px) {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 20px
+    gap: 20px;
   }
-  @media(max-width: 480px) {
+  @media (max-width: 480px) {
     grid-template-columns: 1fr;
     text-align: center;
   }
@@ -30,10 +30,13 @@ const CompanyInfo = styled.div`
     width: 204px;
     height: 40px;
     margin-bottom: 8px;
-    @media(max-width: 900px) {
+    @media (max-width: 900px) {
       margin: 0 auto;
       margin-bottom: 18px;
+    }
   }
+  @media (max-width: 900px) {
+    text-align: center;
   }
 `;
 
@@ -48,7 +51,7 @@ const Address = styled.div`
   display: flex;
   flex-direction: column;
   gap: 5px;
-  @media(max-width: 900px) {
+  @media (max-width: 900px) {
     text-align: center;
   }
 `;
