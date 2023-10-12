@@ -89,7 +89,7 @@ const CertificateBlock: FC = observer(() => {
       </Title>
       <CertList>
         <CertBlock>
-          <CertContainer>Обучение MATRIX NOR</CertContainer>
+          <CertContainer>Обучение метод MATRIX NOR</CertContainer>
           <img src={downArrow} alt="downArrow" />
           <CertInfo>
             <Ul>
@@ -97,73 +97,88 @@ const CertificateBlock: FC = observer(() => {
                 <span>Интеграция энергетического состояния</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>Раскрытие экстрасенсорных способностей</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>Работа с травмирующими событиями прошлого и настоящего</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>Трасформация внутреннего потенциала</span>
               </li>
             </Ul>
           </CertInfo>
         </CertBlock>
         <CertBlock>
-          <CertContainer>Обучение MATRIX NOR</CertContainer>
+          <CertContainer>Обучение метод MATRIX ID</CertContainer>
           <img src={downArrow} alt="downArrow" />
           <CertInfo>
             <Ul>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>Матрица личности, астронумерология</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>Доказательная диагностика личности</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>Совместимость энерготипов</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>Определение энергопотенциала и способностей человека </span>
+              </li>
+              <li>
+                <span>Предназначение и правильное использование собственного потенциала</span>
               </li>
             </Ul>
           </CertInfo>
         </CertBlock>
         <CertBlock>
-          <CertContainer>Обучение MATRIX NOR</CertContainer>
+          <CertContainer>Обучение метод MATRIX SG</CertContainer>
           <img src={downArrow} alt="downArrow" />
           <CertInfo>
             <Ul>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>открытие канала коммуникации с энерго-информационным полем</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>понятие иерархии сознания и подсознания</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>вход в состояние транса</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>практика запросов и получения информации</span>
+              </li>
+              <li>
+                <span>*Международный сертификат специалиста</span>
+              </li>
+              <li>
+                <span>К сожалению, освоение метода доступно не всем. Предварительно мы проводим диагностику возможностей.</span>
               </li>
             </Ul>
           </CertInfo>
         </CertBlock>
         <CertBlock>
-          <CertContainer>Обучение MATRIX NOR</CertContainer>
+          <CertContainer>WEBINAR's & MEDITATION's</CertContainer>
           <img src={downArrow} alt="downArrow" />
           <CertInfo>
             <Ul>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>групповые занятия</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>медитации на восстановление энергетического состояния</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>работа с родовыми каналами</span>
               </li>
               <li>
-                <span>Интеграция энергетического состояния</span>
+                <span>проработка и повышение целеустремлённости</span>
+              </li>
+              <li>
+                <span>редукция негативных программ</span>
+              </li>
+              <li>
+                <span>установки энергетической защиты</span>
               </li>
             </Ul>
           </CertInfo>

@@ -112,12 +112,12 @@ const DecanatBlock: FC = observer(() => {
           <DecanatInfo>
             <img alt="Avatar" />
             <DecanatName>
-              <h1>Ирина Пертрова</h1>
-              <p>Германия, Мюнхен</p>
+              <h1>Nataliya Ebers</h1>
+              <p>Germany, Stadt Hamm</p>
               <p>Магистр MatrixNor</p>
             </DecanatName>
           </DecanatInfo>
-          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+          <DecanatRole>Ведущий куратор, Магистр MatrixNor</DecanatRole>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
