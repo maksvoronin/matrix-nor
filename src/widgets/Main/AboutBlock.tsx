@@ -60,7 +60,7 @@ const Text = styled.div`
 
 const AboutBlock: FC = observer(() => {
   return (
-    <Container>
+    <Container id="about">
       <Title>О нас</Title>
       <BlockList>
         <UserCard>

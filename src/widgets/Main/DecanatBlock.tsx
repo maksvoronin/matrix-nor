@@ -104,7 +104,7 @@ const TgButton = styled(Button)`
 
 const DecanatBlock: FC = observer(() => {
   return (
-    <Container>
+    <Container id="decanat">
       <Title>Территориальные руководители проекта</Title>
       <Subtitle>Организация системного обучения, личные консультации</Subtitle>
       <DecanatGrid>

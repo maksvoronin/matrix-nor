@@ -23,7 +23,7 @@ const Star = styled.img`
 
 const StarBlock: FC = observer(() => {
   return (
-    <Container>
+    <Container id="star">
       <Title>
         <img src={galka} alt="Title arrow" />
         Проработать собственные вопросы

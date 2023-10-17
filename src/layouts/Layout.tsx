@@ -2,7 +2,7 @@ import { FC, PropsWithChildren } from "react";
 import { PageProps } from "../types";
 import { observer } from "mobx-react";
 import styled from "styled-components";
-import { Footer, Header } from "../widgets";
+import { Footer, Header, Popup } from "../widgets";
 
 const LayoutContainer = styled.div<{ gap: number }>`
   display: flex;
@@ -15,6 +15,7 @@ const Layout: FC<PropsWithChildren<PageProps>> = observer(({ title, children, ga
   return (
     <>
       <title>{title}</title>
+      <Popup />
       <LayoutContainer gap={gap || 80}>
         <Header />
         {children}

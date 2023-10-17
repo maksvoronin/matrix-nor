@@ -35,7 +35,7 @@ const ContactColumn = styled.div`
 
 const ContactBlock: FC = observer(() => {
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <Title>Контакты</Title>
       <ContactRow>
         <ContactColumn>

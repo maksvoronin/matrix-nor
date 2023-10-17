@@ -23,3 +23,5 @@ export { default as IDCalculator } from "./ID/IDCalculator";
 
 export { default as SGHeader } from "./SG/SGHeader";
 export { default as SGText } from "./SG/SGText";
+
+export { default as Popup } from "./Popup";

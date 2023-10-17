@@ -82,7 +82,7 @@ const Ul = styled.ul`
 
 const CertificateBlock: FC = observer(() => {
   return (
-    <Container>
+    <Container id="cert">
       <Title>
         <img src={galka} alt="Galka" />
         Получить Международный сертификат специалиста

@@ -63,7 +63,7 @@ const FeedbackText = styled.p`
 
 const FeedbackBlock: FC = observer(() => {
   return (
-    <Container>
+    <Container id="feedback">
       <Title>
         <img src={galka} alt="Title arrow" />
         Modern professional, helping yourself and others

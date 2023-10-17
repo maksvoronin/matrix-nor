@@ -77,7 +77,7 @@ const Buttons = styled.div`
 
 const FirstScreen: FC = observer(() => {
   return (
-    <FSContainer>
+    <FSContainer id="first">
       <MainContainer>
         <Transformation>Transformation system</Transformation>
         <MatrixNor>Matrix Nor</MatrixNor>
