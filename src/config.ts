@@ -1,7 +1,7 @@
 const config = {
   telegram_name: "@mv_voronin",
   telegram_link: "https://t.me/mv_voronin",
-  api: "http://localhost:3005/sendmail",
+  api: "http://matrixnor.voronin.xyz/api/sendmail",
 };
 
 export default config;
