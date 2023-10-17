@@ -2,11 +2,12 @@ import { observer } from "mobx-react";
 import { FC, useState } from "react";
 import { Button, Input } from "../shared";
 import config from "../config";
+import { usePopupStoreContext } from "../store";
 
 const BackCall: FC = observer(() => {
   const [name, setName] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
-
+  const { setVisible } = usePopupStoreContext();
   const sendData = async () => {
     if (!name || !phone) return;
     fetch(config.api, {
@@ -17,7 +18,10 @@ const BackCall: FC = observer(() => {
       },
     })
       .then((r) => r.json())
-      .then((res) => alert("Заявка отправлена"));
+      .then((res) => {
+        alert("Заявка отправлена");
+        setVisible(false);
+      });
   };
 
   return (
