@@ -45,11 +45,12 @@ const Transformation = styled.h2`
 `;
 
 const Europe = styled.h3`
-  font-family: "Sofia Sans Condensed", sans-serif;
+  /* font-family: "Sofia Sans Condensed", sans-serif; */
   font-size: 28px;
   line-height: 1.33;
   text-align: center;
-  font-style: italic;
+  /* font-style: italic; */
+  font-weight: 600;
 `;
 
 const CTAConstruction = styled(Container)`
@@ -86,8 +87,8 @@ const FirstScreen: FC = observer(() => {
       <CTAConstruction>
         <Photo />
         <Buttons>
-          <Button width={309}>Узнать свой энерготип</Button>
-          <Button width={309}>Диагностика сенсорных способностей</Button>
+          <Button width={309} height={70} onClick={() => window.open("https://t.me/matrixnorhome")}>Узнать свой энерготип</Button>
+          <Button width={309} height={70} onClick={() => window.open("https://t.me/+GfFenfWNV3kxYWFi")}>Диагностика сенсорных способностей</Button>
         </Buttons>
         <Photo />
       </CTAConstruction>

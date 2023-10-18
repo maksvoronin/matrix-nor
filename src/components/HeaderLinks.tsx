@@ -20,15 +20,24 @@ const Link = styled(DefaultLink)`
   @media(max-width: 500px) {
     font-size: 13px;
   }
+  &.nor {
+    color: #DC4EFF;
+  }
+  &.id {
+    color: #28DFFF;
+  }
+  &.sg {
+    color: #E72408;
+  }
 `;
 
 const HeaderLinks: FC = observer(() => {
   return (
     <HeaderLinksContainer>
       <Link to="/">Главная</Link>
-      <Link to="/nor">MatrixNor</Link>
-      <Link to="/id">Matrix ID</Link>
-      <Link to="/sg">Matrix SG</Link>
+      <Link to="/nor" className="nor">MatrixNor</Link>
+      <Link to="/id" className="id">Matrix ID</Link>
+      <Link to="/sg" className="sg">Matrix SG</Link>
     </HeaderLinksContainer>
   );
 });

@@ -1,12 +1,11 @@
 import { observer } from "mobx-react";
 import { FC } from "react";
 import styled from "styled-components";
-import logo from "../assets/company-logo.png";
 import { Container } from "../shared";
 
 const FooterContainer = styled(Container)`
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
   padding-bottom: 50px;
   padding-left: 15px;
   padding-right: 15px;
@@ -20,23 +19,6 @@ const FooterContainer = styled(Container)`
   }
   @media (max-width: 480px) {
     grid-template-columns: 1fr;
-    text-align: center;
-  }
-`;
-
-const CompanyInfo = styled.div`
-  display: flex;
-  flex-direction: column;
-  img {
-    width: 204px;
-    height: 40px;
-    margin-bottom: 8px;
-    @media (max-width: 900px) {
-      margin: 0 auto;
-      margin-bottom: 18px;
-    }
-  }
-  @media (max-width: 900px) {
     text-align: center;
   }
 `;
@@ -61,10 +43,6 @@ const Footer: FC = observer(() => {
   return (
     <footer>
       <FooterContainer>
-        <CompanyInfo>
-          <img src={logo} alt="Company logo" />
-          <p>Name, description</p>
-        </CompanyInfo>
         <Links>
           <p>t.me/mv_voronini</p>
           <p>t.me/mv_voronini</p>

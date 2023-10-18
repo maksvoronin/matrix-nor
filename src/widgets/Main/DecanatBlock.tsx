@@ -175,7 +175,7 @@ const DecanatBlock: FC = observer(() => {
           <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
         </DecanatCard>
       </DecanatGrid>
-      <TgButton width={300} height={90}>
+      <TgButton width={300} height={90} onClick={() => window.open("https://t.me/matrix727")}>
         <img src={tgIcon} alt="tg" />
         Задать вопрос
       </TgButton>

@@ -6,7 +6,7 @@ const Button = styled.div<{ width?: number, height?: number, borderradius?: numb
   border: none;
   height: ${({height}) => height ? `${height}px` :  "90px" };
   display: flex;
-  width: ${({ width }) => width ? `${width}px` : "auto"};
+  width: ${({ width }) => width ? `${width - 30}px` : "auto"};
   align-items: center;
   justify-content: center;
   font-weight: ${({weight}) => weight ? `${weight}` : 600};
@@ -15,11 +15,13 @@ const Button = styled.div<{ width?: number, height?: number, borderradius?: numb
   text-align: center;
   transition: box-shadow 0.3s;
   cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
   &:hover {
     box-shadow: 0px 5px 20px #dc4eff65;
   }
   @media(max-width: 500px) {
-    width: 100%;
+    width: calc(100% - 20px);
   }
 `;
 

@@ -4,7 +4,7 @@ import { Container } from "../../shared";
 import styled from "styled-components";
 
 const MatrixTitle = styled.h1`
-  text-align: right;
+  text-align: center;
   font-size: 64px;
   color: #dc4eff;
   font-weight: 400;
@@ -19,7 +19,7 @@ const Subtitle = styled.h2`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-align: right;
+  text-align: center;
   margin-top: 19px;
   margin-bottom: 19px;
   @media (max-width: 500px) {

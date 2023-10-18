@@ -18,6 +18,9 @@ const Title = styled.h1`
 
 const Ul = styled.ul`
   font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   @media(max-width: 500px) {
     font-size: 16px;
   }
