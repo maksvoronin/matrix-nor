@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.322aa19b.css",
-    "main.js": "/static/js/main.8f6d41df.js",
+    "main.js": "/static/js/main.145696c6.js",
     "static/js/787.792bfa5e.chunk.js": "/static/js/787.792bfa5e.chunk.js",
+    "static/media/julia_nor.png": "/static/media/julia_nor.8c73355ca0f78063544a.png",
     "static/media/lilia_nor.png": "/static/media/lilia_nor.a2f6f5beb03bfd8b49cb.png",
     "static/media/firstScreen.png": "/static/media/firstScreen.374773d9b41859d25667.png",
     "static/media/pyramid.png": "/static/media/pyramid.37ad212db81a95b732bd.png",
@@ -15,17 +16,17 @@
     "static/media/lena_garyanova.jpg": "/static/media/lena_garyanova.43e16df0607ef3f7f8cb.jpg",
     "static/media/natalya_ebers.jpg": "/static/media/natalya_ebers.3ff5995b3826fac48ca5.jpg",
     "static/media/olga.jpg": "/static/media/olga.6e7e7b5e2b9637e8ddb8.jpg",
-    "static/media/star.png": "/static/media/star.87370c5ca2ec12ee3e80.png",
+    "static/media/star.png": "/static/media/star.97017f391ec58139606e.png",
     "static/media/mery.jpg": "/static/media/mery.30840e0852db6c91223c.jpg",
     "static/media/svetlana.jpg": "/static/media/svetlana.a5f006c314afdcc26db5.jpg",
     "index.html": "/index.html",
     "static/media/downArrow.svg": "/static/media/downArrow.22e661ed2dd9f55b77f42eb8305d35a3.svg",
     "main.322aa19b.css.map": "/static/css/main.322aa19b.css.map",
-    "main.8f6d41df.js.map": "/static/js/main.8f6d41df.js.map",
+    "main.145696c6.js.map": "/static/js/main.145696c6.js.map",
     "787.792bfa5e.chunk.js.map": "/static/js/787.792bfa5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.322aa19b.css",
-    "static/js/main.8f6d41df.js"
+    "static/js/main.145696c6.js"
   ]
 }
