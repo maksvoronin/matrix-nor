@@ -2,6 +2,7 @@ import { observer } from "mobx-react";
 import { FC } from "react";
 import styled from "styled-components";
 import { Container } from "../../shared";
+import lilia from "../../assets/lilia_nor.png"
 
 const Title = styled.h1`
   font-weight: 400;
@@ -26,10 +27,9 @@ const UserCard = styled.div`
   gap: 23px;
 
   img {
-    width: 220px;
+    width: 260px;
     height: 285px;
     display: block;
-    background-color: #d9d9d9;
     border-radius: 8px;
   }
 
@@ -64,7 +64,7 @@ const AboutBlock: FC = observer(() => {
       <Title>О нас</Title>
       <BlockList>
         <UserCard>
-          <img alt="some" />
+          <img alt="some" src={lilia} />
           <Text>
             <h1>Лилия Нор</h1>
             <p>Spiritual Guide, парапсихолог, трансформационный коуч, биоэнерготерапевт, невербальный гипнолог. Участник телепроектов. Практикующий личный консультант более 21 года.</p>

@@ -3,12 +3,13 @@ import { FC } from "react";
 import firstScreenBackground from "../../assets/firstScreen.png";
 import { Button, Container } from "../../shared";
 import styled from "styled-components";
+import lilia from "../../assets/lilia_nor.png"
 
 const FSContainer = styled.div`
   background: url(${firstScreenBackground}) center no-repeat;
   background-size: cover;
   max-height: 800px;
-  height: 100vh;
+  min-height: 50vh;
 `;
 
 const MainContainer = styled(Container)`
@@ -65,9 +66,8 @@ const CTAConstruction = styled(Container)`
 `;
 
 const Photo = styled.img`
-  width: 307px;
+  width: 277px;
   height: 307px;
-  background: #d9d9d9;
 `;
 
 const Buttons = styled.div`
@@ -89,7 +89,7 @@ const FirstScreen: FC = observer(() => {
           <Button width={309} height={70} onClick={() => window.open("https://t.me/matrixnorhome")}>Узнать свой энерготип</Button>
           <Button width={309} height={70} onClick={() => window.open("https://t.me/+3dPeFDnatu44N2Yy")}>Диагностика сенсорных способностей</Button>
         </Buttons>
-        <Photo />
+        <Photo src={lilia} alt="Lilia Nor" />
       </CTAConstruction>
     </FSContainer>
   );

@@ -4,6 +4,17 @@ import { Button, Container } from "../../shared";
 import styled from "styled-components";
 import tgIcon from "../../assets/tgIcon.png";
 
+import helena from "../../assets/helena.jpg";
+import irina_pelz from "../../assets/irina_pelz.jpg";
+import joanna from "../../assets/joanna_lada.jpg";
+import jully from "../../assets/jully.jpg";
+import lena from "../../assets/lena_garyanova.jpg";
+import mery from "../../assets/mery.jpg";
+import natalya from "../../assets/natalya_be.jpg";
+import natalya_ebers from "../../assets/natalya_ebers.jpg";
+import olga from "../../assets/olga.jpg";
+import svetlana from "../../assets/svetlana.jpg";
+
 const Title = styled.h1`
   font-weight: 400;
   font-size: 32px;
@@ -52,19 +63,17 @@ const DecanatCard = styled.div`
 const DecanatInfo = styled.div`
   display: flex;
   gap: 34px;
-  img {
-    width: 85px;
-    height: 85px;
-    border-radius: 500px;
-    background: #d9d9d9;
-    @media (max-width: 500px) {
-      width: 75px;
-      height: 75px;
-    }
-  }
   @media (max-width: 500px) {
     gap: 20px;
   }
+`;
+
+const Img = styled.div<{ src: string }>`
+  min-width: 85px;
+  height: 85px;
+  background: url(${({src}) => src}) no-repeat;
+  background-size: 100%;
+  border-radius: 500px;
 `;
 
 const DecanatName = styled.div`
@@ -87,15 +96,6 @@ const DecanatName = styled.div`
   }
 `;
 
-const DecanatRole = styled.p`
-  margin-top: 13px;
-  font-size: 16px;
-  font-weight: 400;
-  @media (max-width: 500px) {
-    font-size: 15px;
-  }
-`;
-
 const TgButton = styled(Button)`
   margin: 0 auto;
   margin-top: 60px;
@@ -114,69 +114,103 @@ const DecanatBlock: FC = observer(() => {
       <DecanatGrid>
         <DecanatCard>
           <DecanatInfo>
-            <img alt="Avatar" />
+            <Img src={natalya_ebers} />
             <DecanatName>
               <h1>Nataliya Ebers</h1>
               <p>Germany, Stadt Hamm</p>
-              <p>Магистр MatrixNor</p>
+              <p>Ведущий куратор, Магистр MatrixNor</p>
             </DecanatName>
           </DecanatInfo>
-          <DecanatRole>Ведущий куратор, Магистр MatrixNor</DecanatRole>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <img alt="Avatar" />
+            <Img src={olga} />
             <DecanatName>
-              <h1>Ирина Пертрова</h1>
-              <p>Германия, Мюнхен</p>
-              <p>Магистр MatrixNor</p>
+              <h1>Olga Shereper</h1>
+              <p>Italy, Milan</p>
+              <p>Магистр MatrixNor, Астропсихолог, Нумеролог</p>
             </DecanatName>
           </DecanatInfo>
-          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <img alt="Avatar" />
+            <Img src={mery} />
             <DecanatName>
-              <h1>Ирина Пертрова</h1>
-              <p>Германия, Мюнхен</p>
-              <p>Магистр MatrixNor</p>
+              <h1>Mary Zhyhaylo</h1>
+              <p>Germany, Stadt Nürnberg</p>
+              <p>Магистр MatrixNor, Нумеролог, Биоэнерготерапевт </p>
             </DecanatName>
           </DecanatInfo>
-          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <img alt="Avatar" />
+            <Img src={svetlana} />
             <DecanatName>
-              <h1>Ирина Пертрова</h1>
-              <p>Германия, Мюнхен</p>
-              <p>Магистр MatrixNor</p>
+              <h1>Светлана Пржевальская</h1>
+              <p>Россия, г. Москва</p>
+              <p>Магистр MatrixNor, Нумеролог, инструктор системы Наули, женский энергопрактик</p>
             </DecanatName>
           </DecanatInfo>
-          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <img alt="Avatar" />
+            <Img src={lena} />
             <DecanatName>
-              <h1>Ирина Пертрова</h1>
-              <p>Германия, Мюнхен</p>
-              <p>Магистр MatrixNor</p>
+              <h1>Елена Гаряинова</h1>
+              <p>Россия, г. Москва</p>
+              <p>Магистр MatrixNor, Нумеролог, Таролог, Биоэнерготерапевт</p>
             </DecanatName>
           </DecanatInfo>
-          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <img alt="Avatar" />
+            <Img src={jully} />
             <DecanatName>
-              <h1>Ирина Пертрова</h1>
-              <p>Германия, Мюнхен</p>
-              <p>Магистр MatrixNor</p>
+              <h1>Julie Schulze</h1>
+              <p>USA, North Carolina</p>
+              <p>Магистр MatrixNor, Гипнолог, Профайлер, Энерготерапевт.</p>
             </DecanatName>
           </DecanatInfo>
-          <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <Img src={irina_pelz} />
+            <DecanatName>
+              <h1>Irina Pelz</h1>
+              <p>France, Colmar</p>
+              <p>Магистр MatrixNor, Экстрасенс, Биоэнерготерапевт, Хиромант.</p>
+            </DecanatName>
+          </DecanatInfo>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <Img src={joanna} />
+            <DecanatName>
+              <h1>Joanna Lada</h1>
+              <p>England, Boston</p>
+              <p>Магистр MatrixNor, Биоэнерготерапевт, Арома и Стоун терапевт.</p>
+            </DecanatName>
+          </DecanatInfo>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <Img src={natalya} />
+            <DecanatName>
+              <h1>Наталия Бингелис</h1>
+              <p>Россия, Новосибирск</p>
+              <p>Магистр MatrixNor, Таролог, Биоэнерготерапевт</p>
+            </DecanatName>
+          </DecanatInfo>
+        </DecanatCard>
+        <DecanatCard>
+          <DecanatInfo>
+            <Img src={helena} />
+            <DecanatName>
+              <h1>Хелена Урбан</h1>
+              <p>Россия, Беларусь</p>
+              <p>Ведущий куратор, Мастер MatrixNor</p>
+            </DecanatName>
+          </DecanatInfo>
         </DecanatCard>
       </DecanatGrid>
       <TgButton width={300} height={90} onClick={() => window.open("https://t.me/+GfFenfWNV3kxYWFi")}>
