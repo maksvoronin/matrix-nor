@@ -55,7 +55,7 @@ const Europe = styled.h3`
 
 const CTAConstruction = styled(Container)`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   @media(max-width: 850px) {
     justify-content: center;
     img {
@@ -65,7 +65,7 @@ const CTAConstruction = styled(Container)`
 `;
 
 const Photo = styled.img`
-  width: 263px;
+  width: 307px;
   height: 307px;
   background: #d9d9d9;
 `;
@@ -85,10 +85,9 @@ const FirstScreen: FC = observer(() => {
         <Europe>Европейская система трансформации личности</Europe>
       </MainContainer>
       <CTAConstruction>
-        <Photo />
         <Buttons>
           <Button width={309} height={70} onClick={() => window.open("https://t.me/matrixnorhome")}>Узнать свой энерготип</Button>
-          <Button width={309} height={70} onClick={() => window.open("https://t.me/+GfFenfWNV3kxYWFi")}>Диагностика сенсорных способностей</Button>
+          <Button width={309} height={70} onClick={() => window.open("https://t.me/+3dPeFDnatu44N2Yy")}>Диагностика сенсорных способностей</Button>
         </Buttons>
         <Photo />
       </CTAConstruction>

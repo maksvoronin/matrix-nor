@@ -106,7 +106,11 @@ const DecanatBlock: FC = observer(() => {
   return (
     <Container id="decanat">
       <Title>Территориальные руководители проекта</Title>
-      <Subtitle>Организация системного обучения, личные консультации</Subtitle>
+      <Subtitle>
+        Организация системного обучения.
+        <br />
+        Личные консультанты.
+      </Subtitle>
       <DecanatGrid>
         <DecanatCard>
           <DecanatInfo>
@@ -175,7 +179,7 @@ const DecanatBlock: FC = observer(() => {
           <DecanatRole>Биоэнерготерапевт, Таролог</DecanatRole>
         </DecanatCard>
       </DecanatGrid>
-      <TgButton width={300} height={90} onClick={() => window.open("https://t.me/matrix727")}>
+      <TgButton width={300} height={90} onClick={() => window.open("https://t.me/+GfFenfWNV3kxYWFi")}>
         <img src={tgIcon} alt="tg" />
         Задать вопрос
       </TgButton>

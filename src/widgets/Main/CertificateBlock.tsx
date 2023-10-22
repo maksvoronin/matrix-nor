@@ -48,6 +48,7 @@ const CertList = styled.div`
 
 const CertBlock = styled.div`
   display: flex;
+  height: auto;
   flex-direction: column;
   gap: 35px;
   align-items: center;
@@ -58,6 +59,7 @@ const CertInfo = styled.div`
   background: rgba(255, 255, 255, 0.2);
   padding: 20px 30px;
   width: 180px;
+  height: 100%;
 `;
 
 const Ul = styled.ul`
@@ -93,6 +95,9 @@ const CertificateBlock: FC = observer(() => {
           <img src={downArrow} alt="downArrow" />
           <CertInfo>
             <Ul>
+              <li>
+                <span>Работа с энергетическим полем</span>
+              </li>
               <li>
                 <span>Интеграция энергетического состояния</span>
               </li>
@@ -147,12 +152,6 @@ const CertificateBlock: FC = observer(() => {
               </li>
               <li>
                 <span>практика запросов и получения информации</span>
-              </li>
-              <li>
-                <span>*Международный сертификат специалиста</span>
-              </li>
-              <li>
-                <span>К сожалению, освоение метода доступно не всем. Предварительно мы проводим диагностику возможностей.</span>
               </li>
             </Ul>
           </CertInfo>

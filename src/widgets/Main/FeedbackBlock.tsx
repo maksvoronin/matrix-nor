@@ -37,7 +37,7 @@ const FeedbackList = styled.div`
 `;
 
 const FeedbackContainer = styled.div`
-  background: #de5cff;
+  background: #ffffff;
   padding: 30px;
   border-radius: 20px;
 `;
@@ -45,7 +45,7 @@ const FeedbackContainer = styled.div`
 const FeedbackTitle = styled.h1`
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #cf2ca6;
   margin-bottom: 17px;
   @media(max-width: 500px) {
     font-size: 20px;
@@ -55,7 +55,7 @@ const FeedbackTitle = styled.h1`
 const FeedbackText = styled.p`
   line-height: 147%;
   font-size: 24px;
-  color: #fff;
+  color: #070933;
   @media(max-width: 500px) {
     font-size: 16px;
   }
