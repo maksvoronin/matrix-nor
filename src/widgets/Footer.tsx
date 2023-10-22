@@ -23,19 +23,28 @@ const FooterContainer = styled(Container)`
   }
 `;
 
-const Links = styled.div`
+const ContactRow = styled.div`
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  width: 100%;
+  justify-content: space-around;
 `;
 
-const Address = styled.div`
-  text-align: right;
+const ContactColumn = styled.div`
   display: flex;
   flex-direction: column;
   gap: 5px;
-  @media (max-width: 900px) {
-    text-align: center;
+  p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    a {
+      color: white;
+    }
+    img {
+      width: 18px;
+      height: 18px;
+    }
   }
 `;
 
@@ -43,16 +52,26 @@ const Footer: FC = observer(() => {
   return (
     <footer>
       <FooterContainer>
-        <Links>
-          <p>t.me/mv_voronini</p>
-          <p>t.me/mv_voronini</p>
-          <p>t.me/mv_voronini</p>
-        </Links>
-        <Address>
-          <p>+7 999 999 99 99</p>
-          <p>ул. Пушкин, г. Александр</p>
-          <p>ул. Пушкин, г. Александр</p>
-        </Address>
+        <ContactRow>
+          <ContactColumn>
+            <p>Лилия Нор</p>
+            <p>Запись на личную online консультацию</p>
+            <p>+49 176 569 75 335</p>
+            <p>
+              <a href="https://youtube.com/@LiliaNor">YouTube</a>
+              <a href="www.tiktok.com/@lilianor_matrix">TikTok</a>
+              <a href="https://instagram.com/lilia_nor">Instagram</a>
+            </p>
+          </ContactColumn>
+          <ContactColumn>
+            <p>Юлия Нор</p>
+            <p>Запись на личную online консультацию</p>
+            <p>+7 909 279 27 77</p>
+            <p>
+              <a href="https://instagram.com/iulia_nor">Instagram</a>
+            </p>
+          </ContactColumn>
+        </ContactRow>
       </FooterContainer>
     </footer>
   );

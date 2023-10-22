@@ -233,84 +233,39 @@ const IDCalculator = observer(() => {
         <CalcPlanets>
           <CalcPlanetElement>
             <p>Солнце</p>
-            <p>
-              {tableSun
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableSun.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Луна * Земля</p>
-            <p>
-              {tableLunaEarth
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableLunaEarth.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Меркурий</p>
-            <p>
-              {tableMerkury
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableMerkury.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Марс</p>
-            <p>
-              {tableMars
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableMars.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Венера</p>
-            <p>
-              {tableVenera
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableVenera.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Сатурн</p>
-            <p>
-              {tableSaturn
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableSaturn.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Юпитер</p>
-            <p>
-              {tableJupiter
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableJupiter.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Уран</p>
-            <p>
-              {tableUran
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableUran.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
           <CalcPlanetElement>
             <p>Нептун</p>
-            <p>
-              {tableNeptun
-                .split("")
-                .map((e) => Number(e))
-                .reduce((a, c) => a + c, 0)}
-            </p>
+            <p>{tableNeptun.split("").map((e) => Number(e)).length}</p>
           </CalcPlanetElement>
         </CalcPlanets>
       </CalcGrid>

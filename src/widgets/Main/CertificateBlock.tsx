@@ -157,7 +157,7 @@ const CertificateBlock: FC = observer(() => {
           </CertInfo>
         </CertBlock>
         <CertBlock>
-          <CertContainer>WEBINAR's & MEDITATION's</CertContainer>
+          <CertContainer>WEBINARS & MEDITATIONS</CertContainer>
           <img src={downArrow} alt="downArrow" />
           <CertInfo>
             <Ul>
