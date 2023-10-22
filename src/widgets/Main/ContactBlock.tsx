@@ -58,13 +58,18 @@ const ContactColumn = styled.div`
   gap: 5px;
 `;
 
+const Name = styled.p`
+  font-size: 24px !important;
+  font-weight: bold;
+`;
+
 const ContactBlock: FC = observer(() => {
   return (
     <ContactContainer id="contact">
       <Title>Контакты</Title>
       <ContactRow>
         <ContactColumn>
-          <p>Лилия Нор</p>
+          <Name>Лилия Нор</Name>
           <p>Запись на личную online консультацию</p>
           <p>
             <img src={viber} alt="Viber" />
@@ -91,7 +96,7 @@ const ContactBlock: FC = observer(() => {
           </p>
         </ContactColumn>
         <ContactColumn>
-          <p>Юлия Нор</p>
+          <Name>Юлия Нор</Name>
           <p>Запись на личную online консультацию</p>
           <p>
             <img src={viber} alt="Viber" />
