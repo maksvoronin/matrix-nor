@@ -51,7 +51,7 @@ const ContactRow = styled.div`
   width: 100%;
   justify-content: space-around;
   gap: 20px;
-  @media(max-width: 620px) {
+  @media (max-width: 620px) {
     flex-direction: column;
   }
 `;
@@ -78,22 +78,24 @@ const ContactBlock: FC = observer(() => {
           <p>
             <img src={viber} alt="Viber" />
             <img src={whatsapp} alt="whatsapp" />
-            +49 176 569 75 335
+            <a href="https://wa.me/+4917656975335" target="_blank">
+              +49 176 569 75 335
+            </a>
           </p>
           <p>
-            <a href="https://youtube.com/@LiliaNor">
+            <a href="https://youtube.com/@LiliaNor" target="_blank">
               <img src={youtube} alt="yt" />
               YouTube
             </a>
           </p>
           <p>
-            <a href="https://www.tiktok.com/@lilianor_matrix">
+            <a href="https://www.tiktok.com/@lilianor_matrix" target="_blank">
               <img src={tiktok} alt="Instagram" />
               TikTok
             </a>
           </p>
           <p>
-            <a href="https://instagram.com/lilia_nor">
+            <a href="https://instagram.com/lilia_nor" target="_blank">
               <img src={instagram} alt="Instagram" />
               Instagram
             </a>
@@ -105,10 +107,10 @@ const ContactBlock: FC = observer(() => {
           <p>
             <img src={viber} alt="Viber" />
             <img src={whatsapp} alt="Viber" />
-            +7 909 279 27 77
+            <a href="https://wa.me/+79092792777" target="_blank">+7 909 279 27 77</a>
           </p>
           <p>
-            <a href="https://instagram.com/iulia_nor">
+            <a href="https://instagram.com/iulia_nor" target="_blank">
               <img src={instagram} alt="Instagram" />
               Instagram
             </a>
@@ -116,7 +118,7 @@ const ContactBlock: FC = observer(() => {
         </ContactColumn>
       </ContactRow>
       <p>
-        <a href="https://t.me/matrixnor">
+        <a href="https://t.me/matrixnor" target="_blank">
           <img src={telegram} alt="tg" />
           Telegram Matrix Nor
         </a>
