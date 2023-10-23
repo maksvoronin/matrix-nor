@@ -11,7 +11,7 @@ const Title = styled.h1`
   align-items: center;
   gap: 14px;
   margin-bottom: 15px;
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: 24px;
   }
 `;
@@ -22,7 +22,7 @@ const Subtitle = styled.h2`
   font-weight: 400;
   margin-top: 0;
   padding: 0;
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: 24px;
   }
 `;
@@ -31,7 +31,7 @@ const FeedbackList = styled.div`
   display: flex;
   gap: 40px;
   margin-top: 23px;
-  @media(max-width: 670px) {
+  @media (max-width: 670px) {
     flex-direction: column;
   }
 `;
@@ -47,7 +47,7 @@ const FeedbackTitle = styled.h1`
   font-weight: 700;
   color: #cf2ca6;
   margin-bottom: 17px;
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: 20px;
   }
 `;
@@ -56,7 +56,7 @@ const FeedbackText = styled.p`
   line-height: 147%;
   font-size: 24px;
   color: #070933;
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: 16px;
   }
 `;
@@ -71,8 +71,11 @@ const FeedbackBlock: FC = observer(() => {
       <Subtitle>Отзывы</Subtitle>
       <FeedbackList>
         <FeedbackContainer>
-          <FeedbackTitle>Татьяна</FeedbackTitle>
-          <FeedbackText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis tincidunt ipsum, nec faucibus magna interdum et.</FeedbackText>
+          <FeedbackTitle>Татьяна Швабауэр</FeedbackTitle>
+          <FeedbackText>
+            Дорогая Юлия, благодарю тебя от всей души за те знания которые, я от тебя получила, ты очень интересный человек, и от тебя можно многому научиться, ты классная, хотелось бы чтобы у меня по
+            жизни всегда были такие компетентные люди как ты, а также присоединяюсь к вышесказанному от девочек С самыми наилучшими пожеланиями
+          </FeedbackText>
         </FeedbackContainer>
         <FeedbackContainer>
           <FeedbackTitle>Татьяна</FeedbackTitle>
