@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const Text = styled.p`
   font-size: 24px;
-  @media(max-width: 400px) {
+  @media(max-width: 500px) {
     font-size: 16px;
   }
 `;

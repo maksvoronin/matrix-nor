@@ -8,7 +8,7 @@ const MatrixTitle = styled.h1`
   font-size: 64px;
   color: #28DFFF;
   font-weight: 400;
-  @media(max-width: 400px) {
+  @media(max-width: 500px) {
     font-size: 48px;
   }
 `;
@@ -21,7 +21,7 @@ const Subtitle = styled.h2`
   line-height: normal;
   text-align: center;
   margin-top: 19px;
-  @media(max-width: 400px) {
+  @media(max-width: 500px) {
     font-size: 18px;
   }
 `;

@@ -3,7 +3,6 @@ import { FC } from "react";
 import firstScreenBackground from "../../assets/firstScreen.png";
 import { Button, Container } from "../../shared";
 import styled from "styled-components";
-import lilia from "../../assets/lilia_nor.png"
 
 const FSContainer = styled.div`
   background: url(${firstScreenBackground}) center no-repeat;
@@ -28,9 +27,9 @@ const MatrixNor = styled.h1`
   font-weight: 900;
   text-align: center;
   font-size: 72px;
-  color: var(--purple);
+  color: white;
   @media(max-width: 500px) {
-    font-size: 56px;
+    font-size: 48px;
   }
 `;
 
@@ -41,17 +40,18 @@ const Transformation = styled.h2`
   font-size: 36px;
   margin-bottom: 20px;
   @media(max-width: 500px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 `;
 
 const Europe = styled.h3`
-  /* font-family: "Sofia Sans Condensed", sans-serif; */
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.33;
   text-align: center;
-  /* font-style: italic; */
   font-weight: 600;
+  @media(max-width: 500px) {
+    font-size: 22px;
+  }
 `;
 
 const CTAConstruction = styled(Container)`
@@ -65,15 +65,11 @@ const CTAConstruction = styled(Container)`
   }
 `;
 
-const Photo = styled.img`
-  width: 277px;
-  height: 307px;
-`;
-
 const Buttons = styled.div`
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin-bottom: 50px;
 `;
 
 const FirstScreen: FC = observer(() => {
@@ -89,7 +85,6 @@ const FirstScreen: FC = observer(() => {
           <Button width={309} height={70} onClick={() => window.open("https://t.me/matrixnorhome")}>Узнать свой энерготип</Button>
           <Button width={309} height={70} onClick={() => window.open("https://t.me/+3dPeFDnatu44N2Yy")}>Диагностика сенсорных способностей</Button>
         </Buttons>
-        <Photo src={lilia} alt="Lilia Nor" />
       </CTAConstruction>
     </FSContainer>
   );

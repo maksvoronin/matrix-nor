@@ -50,6 +50,10 @@ const ContactRow = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-around;
+  gap: 20px;
+  @media(max-width: 620px) {
+    flex-direction: column;
+  }
 `;
 
 const ContactColumn = styled.div`

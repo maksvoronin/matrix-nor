@@ -17,9 +17,11 @@ const Title = styled.h1`
 
 const Content = styled.div`
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 4fr 2.5fr;
 
   img {
+    width: 393px;
+    height: 393px;
     max-width: 100%;
   }
   @media (max-width: 500px) {
@@ -47,7 +49,7 @@ const Star = styled.p`
   font-style: italic;
   font-weight: 400;
   margin-top: 16px;
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: 16px;
   }
 `;

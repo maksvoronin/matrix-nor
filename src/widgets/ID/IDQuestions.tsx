@@ -15,7 +15,7 @@ const Title = styled.p`
     width: 33px;
     height: 38px;
   }
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     font-size: 18px;
   }
 `;
@@ -23,7 +23,7 @@ const Title = styled.p`
 const Text = styled.p`
   font-size: 24px;
   line-height: 1.47;
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     font-size: 16px;
   }
 `;

@@ -7,6 +7,7 @@ const Title = styled.h1`
   font-weight: 400;
   font-size: 32px;
   margin-bottom: 22px;
+  color: var(--purple);
   @media (max-width: 500px) {
     font-size: 24px;
   }
@@ -29,18 +30,18 @@ const Text = styled.div`
     margin-top: 0;
     padding-left: 18px;
     font-size: 18px;
+    color: #dc4eff;
     li {
       margin-bottom: 10px;
+      span {
+        color: white;
+      }
     }
-  }
-  @media (max-width: 500px) {
-    text-align: center;
   }
 `;
 const More = styled.p`
   font-size: 18px;
   line-height: 1.47;
-  text-align: center;
   color: #dc4eff;
   margin-top: 15px;
   cursor: pointer;
@@ -77,13 +78,27 @@ const AboutEducation: FC = observer(() => {
           </p>
           <p>Пройдя ОБУЧЕНИЕ методу MATRIX NOR вы открываете собственные возможности:</p>
           <ul>
-            <li>Диагностировать уровень энергии и физического состояния человека.</li>
-            <li>Исправлять нарушения целостности энергетического поля.</li>
-            <li>Изменять внутренние установки.</li>
-            <li>Открыть способности ясновидения и сенсорного восприятия.</li>
-            <li>Определять потенциал и способности человека.</li>
-            <li>Формировать сценарии событий.</li>
-            <li>Ликвидировать разрушающие эмоции и ситуации в жизни.</li>
+            <li>
+              <span>Диагностировать уровень энергии и физического состояния человека.</span>
+            </li>
+            <li>
+              <span>Исправлять нарушения целостности энергетического поля.</span>
+            </li>
+            <li>
+              <span>Изменять внутренние установки.</span>
+            </li>
+            <li>
+              <span>Открыть способности ясновидения и сенсорного восприятия.</span>
+            </li>
+            <li>
+              <span>Определять потенциал и способности человека.</span>
+            </li>
+            <li>
+              <span>Формировать сценарии событий.</span>
+            </li>
+            <li>
+              <span>Ликвидировать разрушающие эмоции и ситуации в жизни.</span>
+            </li>
           </ul>
           <More onClick={() => setMoreInfo(false)}>Скрыть</More>
         </Text>

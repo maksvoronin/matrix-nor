@@ -10,7 +10,7 @@ const Title = styled.h1`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  @media(max-width: 400px) {
+  @media (max-width: 500px) {
     font-size: 24px;
   }
 `;
@@ -25,7 +25,7 @@ const Content = styled.div`
     height: 393px;
     max-width: 100%;
   }
-  @media(max-width: 400px) {
+  @media (max-width: 500px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -38,9 +38,9 @@ const Ul = styled.ul`
     font-style: normal;
     font-weight: 400;
     line-height: 1.47;
-    @media(max-width: 400px) {
-    font-size: 16px;
-  }
+    @media (max-width: 500px) {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -50,7 +50,7 @@ const Star = styled.p`
   font-style: italic;
   font-weight: 400;
   margin-top: 16px;
-  @media(max-width: 400px) {
+  @media (max-width: 500px) {
     font-size: 16px;
   }
 `;

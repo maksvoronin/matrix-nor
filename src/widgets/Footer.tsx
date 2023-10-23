@@ -19,7 +19,6 @@ const FooterContainer = styled(Container)`
   }
   @media (max-width: 480px) {
     grid-template-columns: 1fr;
-    text-align: center;
   }
 `;
 
@@ -27,6 +26,10 @@ const ContactRow = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-around;
+  gap: 20px;
+  @media(max-width: 620px) {
+    flex-direction: column;
+  }
 `;
 
 const ContactColumn = styled.div`

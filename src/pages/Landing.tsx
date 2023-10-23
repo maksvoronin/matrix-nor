@@ -8,8 +8,8 @@ const Landing: FC<PageProps> = observer(({ title }) => {
   return (
     <Layout title={title}>
       <FirstScreen />
-      <WelcomeScreen />
       <AboutBlock />
+      <WelcomeScreen />
       <AboutEducation />
       <CertificateBlock />
       <StarBlock />
