@@ -62,7 +62,7 @@ const Footer: FC = observer(() => {
             <p>+49 176 569 75 335</p>
             <p>
               <a href="https://youtube.com/@LiliaNor">YouTube</a>
-              <a href="www.tiktok.com/@lilianor_matrix">TikTok</a>
+              <a href="https://www.tiktok.com/@lilianor_matrix">TikTok</a>
               <a href="https://instagram.com/lilia_nor">Instagram</a>
             </p>
           </ContactColumn>

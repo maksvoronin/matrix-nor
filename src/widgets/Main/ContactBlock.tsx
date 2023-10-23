@@ -87,7 +87,7 @@ const ContactBlock: FC = observer(() => {
             </a>
           </p>
           <p>
-            <a href="www.tiktok.com/@lilianor_matrix">
+            <a href="https://www.tiktok.com/@lilianor_matrix">
               <img src={tiktok} alt="Instagram" />
               TikTok
             </a>

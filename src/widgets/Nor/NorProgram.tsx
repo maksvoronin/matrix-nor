@@ -24,7 +24,7 @@ const Content = styled.div`
     height: 393px;
     max-width: 100%;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 800px) {
     grid-template-columns: 1fr;
   }
 `;
