@@ -189,7 +189,7 @@ const IDCalculator = observer(() => {
   };
 
   return (
-    <Container>
+    <Container id="calculator">
       <Title>Калькулятор</Title>
       <CalcRow>
         <Inputs>
