@@ -49,6 +49,7 @@ const Star = styled.p`
   font-style: italic;
   font-weight: 400;
   margin-top: 16px;
+  margin-left: -30px;
   @media (max-width: 500px) {
     font-size: 16px;
   }
@@ -65,10 +66,10 @@ const NorProgram: FC = observer(() => {
           <li>Диагностика человека, в том числе на расстоянии.</li>
           <li>Ликвидация негативных программ и установка защиты.</li>
           <li>Энергетическая проработка ситуаций и взаимоотношений.</li>
+          <Star>* После обучения вы получите сертификат специалиста. </Star>
         </Ul>
         <img src={planet} alt="planet" />
       </Content>
-      <Star>* После обучения вы получите сертификат специалиста. </Star>
     </Container>
   );
 });

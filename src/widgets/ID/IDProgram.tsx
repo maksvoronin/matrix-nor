@@ -50,6 +50,7 @@ const Star = styled.p`
   font-style: italic;
   font-weight: 400;
   margin-top: 16px;
+  margin-left: -30px;
   @media (max-width: 500px) {
     font-size: 16px;
   }
@@ -70,10 +71,10 @@ const IDProgram: FC = observer(() => {
           <li>Работа с датами, подбор по необходимым параметрам.</li>
           <li>Цифровые коды.</li>
           <li>Практика консультирования.</li>
+          <Star>* После обучения вы получите сертификат специалиста. </Star>
         </Ul>
         <img src={pyramid} alt="pyramid" />
       </Content>
-      <Star>* После обучения вы получите сертификат специалиста. </Star>
     </Container>
   );
 });
