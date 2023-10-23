@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.322aa19b.css",
-    "main.js": "/static/js/main.89116d60.js",
+    "main.js": "/static/js/main.f5eb4047.js",
     "static/js/787.792bfa5e.chunk.js": "/static/js/787.792bfa5e.chunk.js",
-    "static/media/julia_nor.png": "/static/media/julia_nor.8c73355ca0f78063544a.png",
-    "static/media/lilia_nor.png": "/static/media/lilia_nor.a2f6f5beb03bfd8b49cb.png",
+    "static/media/julia_nor.png": "/static/media/julia_nor.23049d41f10065d2eba1.png",
+    "static/media/lilia_nor.png": "/static/media/lilia_nor.83b94cc379639ea9785e.png",
     "static/media/firstScreen.png": "/static/media/firstScreen.374773d9b41859d25667.png",
     "static/media/pyramid.png": "/static/media/pyramid.37ad212db81a95b732bd.png",
     "static/media/joanna_lada.jpg": "/static/media/joanna_lada.8138df7da8a523c42839.jpg",
@@ -25,11 +25,11 @@
     "index.html": "/index.html",
     "static/media/downArrow.svg": "/static/media/downArrow.22e661ed2dd9f55b77f42eb8305d35a3.svg",
     "main.322aa19b.css.map": "/static/css/main.322aa19b.css.map",
-    "main.89116d60.js.map": "/static/js/main.89116d60.js.map",
+    "main.f5eb4047.js.map": "/static/js/main.f5eb4047.js.map",
     "787.792bfa5e.chunk.js.map": "/static/js/787.792bfa5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.322aa19b.css",
-    "static/js/main.89116d60.js"
+    "static/js/main.f5eb4047.js"
   ]
 }

@@ -22,7 +22,7 @@ const HeaderLayout = styled(Container)`
   align-items: center;
   height: 100%;
 
-  @media(max-width: 1040px) {
+  @media (max-width: 1040px) {
     ${TelegramLink} {
       display: none;
     }
@@ -31,7 +31,7 @@ const HeaderLayout = styled(Container)`
 
 const Logo = styled.b`
   color: var(--purple);
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: 14px;
   }
 `;
@@ -43,6 +43,7 @@ const Header: FC = observer(() => {
     const handleScroll = () => {
       setScrollTop(window.scrollY);
     };
+    window.scrollTo(0, 0);
 
     window.addEventListener("scroll", handleScroll);
 

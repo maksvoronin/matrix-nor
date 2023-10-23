@@ -28,7 +28,6 @@ const UserCard = styled.div`
   gap: 23px;
 
   img {
-    width: 260px;
     height: 285px;
     display: block;
     border-radius: 8px;
@@ -60,10 +59,6 @@ const Text = styled.div`
   }
 `;
 
-const Img = styled.img`
-  width: 240px !important;
-`;
-
 const AboutBlock: FC = observer(() => {
   return (
     <Container id="about">
@@ -77,7 +72,7 @@ const AboutBlock: FC = observer(() => {
           </Text>
         </UserCard>
         <UserCard>
-          <Img alt="some" src={julia} />
+          <img alt="some" src={julia} />
           <Text>
             <h1>Юлия Нор</h1>
             <p>Spiritual Guide, парапсихолог, биоэнерготерапевт, системный расстановщик, причинно-следственный корректор, астронумеролог, гипнолог. Практикующий личный консультант более 17 лет.</p>

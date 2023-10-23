@@ -242,7 +242,7 @@ const IDCalculator = observer(() => {
         </CalcTable>
         <CalcPlanets>
           <CalcPlanetElement>
-            <p>Солнце</p>
+            <p>1 Солнце</p>
             <p>
               {tableSun
                 .split("")
@@ -251,7 +251,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Луна * Земля</p>
+            <p>2 Луна * Земля</p>
             <p>
               {tableLunaEarth
                 .split("")
@@ -260,7 +260,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Меркурий</p>
+            <p>3 Меркурий</p>
             <p>
               {tableMerkury
                 .split("")
@@ -269,7 +269,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Марс</p>
+            <p>4 Марс</p>
             <p>
               {tableMars
                 .split("")
@@ -278,7 +278,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Венера</p>
+            <p>5 Венера</p>
             <p>
               {tableVenera
                 .split("")
@@ -287,7 +287,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Сатурн</p>
+            <p>6 Сатурн</p>
             <p>
               {tableSaturn
                 .split("")
@@ -296,7 +296,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Юпитер</p>
+            <p>7 Юпитер</p>
             <p>
               {tableJupiter
                 .split("")
@@ -305,7 +305,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Уран</p>
+            <p>8 Уран</p>
             <p>
               {tableUran
                 .split("")
@@ -314,7 +314,7 @@ const IDCalculator = observer(() => {
             </p>
           </CalcPlanetElement>
           <CalcPlanetElement>
-            <p>Нептун</p>
+            <p>9 Нептун</p>
             <p>
               {tableNeptun
                 .split("")
