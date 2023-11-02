@@ -68,6 +68,7 @@ const ContactColumn = styled.div`
 
 const Center = styled.p`
   text-align: center;
+  justify-content: center;
 `;
 
 const Footer: FC = observer(() => {
