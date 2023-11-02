@@ -66,6 +66,10 @@ const ContactColumn = styled.div`
   }
 `;
 
+const Center = styled.p`
+  text-align: center;
+`;
+
 const Footer: FC = observer(() => {
   return (
     <footer>
@@ -121,10 +125,10 @@ const Footer: FC = observer(() => {
         <ContactRow>
           <ContactColumn>
             <p>Информация, размещенная на сайте, носит исключительно информационно-рекламный характер и не является офертой или публичной офертой</p>
-            <p>
+            <Center>
               © Любое использование либо копирование материалов или подборки материалов сайта, элементов дизайна и оформления допускается лишь с разрешения правообладателя и только со ссылкой на
               источник
-            </p>
+            </Center>
             <a href="mailto:matrixnorhome@gmail.com">matrixnorhome@gmail.com</a>
           </ContactColumn>
         </ContactRow>
