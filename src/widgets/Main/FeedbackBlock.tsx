@@ -30,7 +30,7 @@ const Subtitle = styled.h2`
 const FeedbackList = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 15px;
   margin-top: 23px;
   @media (max-width: 670px) {
     flex-direction: column;
@@ -40,12 +40,12 @@ const FeedbackList = styled.div`
 
 const FeedbackContainer = styled.div`
   background: #ffffff;
-  padding: 30px;
-  border-radius: 20px;
+  padding: 20px;
+  border-radius: 15px;
 `;
 
 const FeedbackTitle = styled.h1`
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   color: #cf2ca6;
   margin-bottom: 17px;
@@ -56,7 +56,7 @@ const FeedbackTitle = styled.h1`
 
 const FeedbackText = styled.p`
   line-height: 147%;
-  font-size: 24px;
+  font-size: 20px;
   color: #070933;
   @media (max-width: 500px) {
     font-size: 16px;

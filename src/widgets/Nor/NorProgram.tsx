@@ -68,7 +68,7 @@ const NorProgram: FC = observer(() => {
           <li>Энергетическая проработка ситуаций и взаимоотношений.</li>
           <Star>* После обучения вы получите сертификат специалиста. </Star>
         </Ul>
-        <img src={planet} alt="planet" />
+        <img src={planet} alt="Энергетическое поле" />
       </Content>
     </Container>
   );

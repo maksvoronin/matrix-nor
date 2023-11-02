@@ -186,6 +186,7 @@ const IDCalculator = observer(() => {
     result.split("").filter((e) => e === "7" && setTableJupiter((prev) => (prev === "-" ? "7" : prev + "7")));
     result.split("").filter((e) => e === "8" && setTableUran((prev) => (prev === "-" ? "8" : prev + "8")));
     result.split("").filter((e) => e === "9" && setTableNeptun((prev) => (prev === "-" ? "9" : prev + "9")));
+    alert("Матрица рассчитана!");
   };
 
   return (

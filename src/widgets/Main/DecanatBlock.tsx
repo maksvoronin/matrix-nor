@@ -114,17 +114,17 @@ const DecanatBlock: FC = observer(() => {
       <DecanatGrid>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={natalya_ebers} />
+            <Img src={natalya_ebers}  />
             <DecanatName>
               <h1>Nataliya Ebers</h1>
               <p>Germany, Stadt Hamm</p>
-              <p>Ведущий куратор, Магистр MatrixNor</p>
+              <p>Ведущий куратор, Магистр MatrixNor, таролог, хиромант, экстрасенс</p>
             </DecanatName>
           </DecanatInfo>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={olga} />
+            <Img src={olga}  />
             <DecanatName>
               <h1>Olga Shereper</h1>
               <p>Italy, Milan</p>
@@ -134,7 +134,7 @@ const DecanatBlock: FC = observer(() => {
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={mery} />
+            <Img src={mery}  />
             <DecanatName>
               <h1>Mary Zhyhaylo</h1>
               <p>Germany, Stadt Nürnberg</p>
@@ -144,7 +144,7 @@ const DecanatBlock: FC = observer(() => {
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={svetlana} />
+            <Img src={svetlana}  />
             <DecanatName>
               <h1>Светлана Пржевальская</h1>
               <p>Россия, г. Москва</p>
@@ -154,17 +154,17 @@ const DecanatBlock: FC = observer(() => {
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={lena} />
+            <Img src={lena}  />
             <DecanatName>
               <h1>Елена Гаряинова</h1>
               <p>Россия, г. Москва</p>
-              <p>Магистр MatrixNor, Нумеролог, Таролог, Биоэнерготерапевт</p>
+              <p>Магистр MatrixNor, Нумеролог, Таролог, Биоэнерготерапевт, Гадание на Таро</p>
             </DecanatName>
           </DecanatInfo>
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={jully} />
+            <Img src={jully}  />
             <DecanatName>
               <h1>Julie Schulze</h1>
               <p>USA, North Carolina</p>
@@ -174,7 +174,7 @@ const DecanatBlock: FC = observer(() => {
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={irina_pelz} />
+            <Img src={irina_pelz}  />
             <DecanatName>
               <h1>Irina Pelz</h1>
               <p>France, Colmar</p>
@@ -184,7 +184,7 @@ const DecanatBlock: FC = observer(() => {
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={joanna} />
+            <Img src={joanna}  />
             <DecanatName>
               <h1>Joanna Lada</h1>
               <p>England, Boston</p>
@@ -194,7 +194,7 @@ const DecanatBlock: FC = observer(() => {
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={natalya} />
+            <Img src={natalya}  />
             <DecanatName>
               <h1>Наталия Бингелис</h1>
               <p>Россия, Новосибирск</p>
@@ -204,7 +204,7 @@ const DecanatBlock: FC = observer(() => {
         </DecanatCard>
         <DecanatCard>
           <DecanatInfo>
-            <Img src={helena} />
+            <Img src={helena}  />
             <DecanatName>
               <h1>Хелена Урбан</h1>
               <p>Россия, Беларусь</p>
