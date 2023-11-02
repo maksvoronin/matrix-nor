@@ -128,6 +128,8 @@ const Footer: FC = observer(() => {
             <Center>
               © Любое использование либо копирование материалов или подборки материалов сайта, элементов дизайна и оформления допускается лишь с разрешения правообладателя и только со ссылкой на
               источник
+            </Center>
+            <Center>
               <a href="mailto:matrixnorhome@gmail.com">matrixnorhome@gmail.com</a>
             </Center>
           </ContactColumn>
